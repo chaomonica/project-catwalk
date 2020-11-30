@@ -4,7 +4,7 @@ import 'bootstrap';
 import axios from 'axios';
 import Rating from '@material-ui/lab/Rating';
 
-import InteractionsContext from './InteractionsContext';
+
 
 class RelatedProduct extends React.Component {
   constructor(props) {
@@ -22,7 +22,6 @@ class RelatedProduct extends React.Component {
 
   componentDidMount() {
     //console.log('THIS IS STATE', this.state.singleRelatedProduct.styles);
-
 
     $('#recipeCarousel').carousel({
       pause: true,
