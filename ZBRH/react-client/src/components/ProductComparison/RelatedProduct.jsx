@@ -5,7 +5,6 @@ import axios from 'axios';
 import Rating from '@material-ui/lab/Rating';
 
 
-
 class RelatedProduct extends React.Component {
   constructor(props) {
     super(props);
