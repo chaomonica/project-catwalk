@@ -28,7 +28,7 @@ class RelatedProduct extends React.Component {
       interval: false
     });
 
-    $('.carousel .carousel-item').each(function () {
+    $('#recipeCarousel .carousel-item').each(function () {
       var minPerSlide = 3;
       var next = $(this).next();
       if (!next.length) {
